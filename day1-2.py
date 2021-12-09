@@ -27,4 +27,4 @@ while True:
 
     lastMeasurementSum = currentMeasurementSum
 
-print("{} measurement was higher then the previous".format(measurementSumLargerCount))
+print("{} measurements were higher then the previous".format(measurementSumLargerCount))
