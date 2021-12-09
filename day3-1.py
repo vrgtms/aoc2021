@@ -6,6 +6,7 @@ while True:
     currentLine = file.readline()
 
     if not currentLine:
+        file.close()
         break
 
     currentLine = list(currentLine[:-1])

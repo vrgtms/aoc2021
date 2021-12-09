@@ -13,6 +13,7 @@ while True:
     currentMeasurement = file.readline()
 
     if not currentMeasurement:
+        file.close()
         break
 
     currentMeasurement = int(currentMeasurement)

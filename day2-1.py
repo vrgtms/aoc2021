@@ -7,6 +7,7 @@ while True:
     currentLine = file.readline()
 
     if not currentLine:
+        file.close()
         break
 
     currentLine = currentLine.split(' ')
